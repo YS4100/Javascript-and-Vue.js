@@ -1,3 +1,4 @@
+1.)Creates a table with the number of rows and columns input by the user.
 <html>
 <head>
   <title>Multiplication Table</title>
@@ -32,3 +33,61 @@
 <body>
 </body>
 </html>
+
+
+
+
+2.)Displays a welcome message for the user and when the cursor hovers over the welcome message it displays the message "welcome to the webage"
+<html>
+
+	<head>
+
+	<title>Event!!!</title>
+
+	<script type="text/javascript">
+
+	function trigger()
+
+	{
+
+	document.getElementById("hover").addEventListener("mouseover", popup);
+
+	function popup()
+
+	{
+
+	alert("Welcome to my WebPage!!!");
+
+	}
+
+	}
+
+	</script>
+
+	<style>
+
+	p
+
+	{
+
+	     font-size:50px;
+
+	     position: fixed;
+
+	     left: 550px;
+
+	     top: 300px;
+
+	}
+
+	</style>
+
+	</head>
+
+	<body  onload="trigger();">
+
+	<p id="hover">Welcome!!!</p>
+
+	</body>
+
+	</html>
