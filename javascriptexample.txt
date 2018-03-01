@@ -91,3 +91,33 @@
 	</body>
 
 	</html>
+
+
+3.)Displays current date and time 
+
+<!DOCTYPE html>
+<title>My Example</title>
+
+
+<time id="msg"></time>
+
+<script>
+  document.getElementById("msg").innerHTML = Date();
+</script>
+
+
+
+4.)concatenates two arrays
+
+<!DOCTYPE html>
+<title>Example</title>
+
+
+<p id="msg"></p>
+
+<script>
+  var citiesAU =  ["Mysore", "Ahmedabad", "Bharuch", "Pune"],
+      citiesUS =  ["Navi Mumbai", "Patna", "Hyderabad", "Lucknow"],
+      cities = citiesAU.concat(citiesUS);
+  document.getElementById("msg").innerHTML = cities;
+</script>
